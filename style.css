@@ -87,26 +87,33 @@ body {
     color:#8C9398;
 }
 .first-sec {
-    height: 300px; ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 400px; ;
     padding: 50px;
-    /* background-color: hsl(207, 100%, 98%); */
-    background-image: url(./images/bg-section-top-desktop-1.svg);
+    /* background: hsl(207, 100%, 98%), center; */
+    background-image:url(./images/bg-section-top-desktop-1.svg) , url(./images/bg-section-bottom-desktop-1.svg);
+    background-position: top, bottom;
     background-repeat: no-repeat;
-    box-shadow: 10px;
+    background-size:contain;
+    /* background: linear-gradient(0deg, transparent 0%, transparent 15%, #f6fbff 15%, #f6fbff 90%, transparent 90%), url(./images/bg-section-top-desktop-1.svg), url(./images/bg-section-bottom-desktop-1.svg); */
 
 }
 .grow-together-img {
-    width:50% ;
+    width:500px ;
     height: 300px;
-    float: right;
-
+    float:right;
 }
 .info-1 {
+    display: inline-flex;
     font-weight: 700;
     font-size: 30px;
-    margin: 0;
+    margin: 150px 0 0 0;
+    float: left;
 }
 .desc-1 {
-    width: 50%;
-    display: inline-block;
+    float: left;
+    width: 50%;   
+    display: block;
 }
