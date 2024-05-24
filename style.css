@@ -3,9 +3,6 @@ body {
     margin: auto;
     font-family: "Open Sans", sans-serif;
 }
-.clear {
-    clear: both;
-}
 .brand {
     padding-top: 40px;
     padding-left: 25px;
@@ -65,7 +62,6 @@ body {
     width: 35px;
 }
 .messages {
-    float: right;
     margin: 50px 0 50px 100px;
     width: 25%;
 }
@@ -73,7 +69,6 @@ body {
     width: 35px;
 }
 .communities {
-    float: left;
     margin: 50px 100px 50px 0;
     width: 25%;
 }
@@ -83,37 +78,71 @@ body {
     margin: 0;
 }
 .desc {
-    /* text-align: center; */
     color:#8C9398;
 }
 .first-sec {
-    justify-content: center;
     display: flex;
-    align-items: center;
+    justify-content: center;
     height: 400px; ;
     padding: 50px;
-    /* background: hsl(207, 100%, 98%), center; */
     background-image:url(./images/bg-section-top-desktop-1.svg) , url(./images/bg-section-bottom-desktop-1.svg);
     background-position: top, bottom;
     background-repeat: no-repeat;
     background-size:contain;
-    /* background: linear-gradient(0deg, transparent 0%, transparent 15%, #f6fbff 15%, #f6fbff 90%, transparent 90%), url(./images/bg-section-top-desktop-1.svg), url(./images/bg-section-bottom-desktop-1.svg); */
-
 }
-.grow-together-img {
+.second-sec {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 400px; ;
+    padding: 50px;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.third-sec {
+    display: flex;
+    justify-content: center;
+    height: 400px; ;
+    padding: 50px;
+    background-image:url(./images/bg-section-top-desktop-2.svg) , url(./images/bg-section-bottom-desktop-2.svg);
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.first-sec-img,.second-sec-img,.third-sec-img{
     width:500px ;
     height: 300px;
-    float:right;
+    /* align-self: stretch; */
 }
-.info-1 {
-    display: inline-flex;
+.title-1,.title-2,.title-3 {
     font-weight: 700;
     font-size: 30px;
     margin: 150px 0 0 0;
-    float: left;
+    /* text-align: justify; */
 }
-.desc-1 {
-    float: left;
+.desc-1,.sec-2,.sec-3{
     width: 50%;   
     display: block;
+    /* text-align: justify; */
+}
+.last-sec {
+    text-align: center;
+    padding: 100px 0 150px 0;
+}
+.footer {
+    display: flex;
+    background-image: url(./images/bg-footer-top-desktop.svg);
+    background-color: hsl(192, 100%, 9%);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 500px;
+    color: white;
+}
+.news {
+    font-weight: 700;
+    font-size: 30px;
+}
+.info-2 {
+    font-size: 20px;
 }
