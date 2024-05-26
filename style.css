@@ -16,6 +16,8 @@ body {
     font-size: 15px;
     padding: 7px 20px;
     float: right;
+    cursor: pointer;
+
 }
 .header-content {
     text-align: center;
@@ -46,6 +48,8 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: medium;
+    cursor: pointer;
+
 }
 .screen {
     display: flex;
@@ -132,17 +136,39 @@ body {
 }
 .footer {
     display: flex;
-    background-image: url(./images/bg-footer-top-desktop.svg);
+    padding: 50px 30px 50px 30px ;
+    /* background-image: url(./images/bg-footer-top-desktop.svg); */
     background-color: hsl(192, 100%, 9%);
     background-repeat: no-repeat;
     background-size:contain;
-    height: 500px;
+    height: 300px;
     color: white;
 }
 .news {
-    font-weight: 700;
-    font-size: 30px;
-}
-.info-2 {
+    font-weight: 600;
     font-size: 20px;
+    
+}
+.right-sec {
+    margin-left: 300px;
+}
+.input {
+    border-radius: 10px;
+    width: 110px;
+    height: 15px;
+    padding: 10px 40px;
+    margin: 10px;
+    border:none;
+}
+.last-button {
+    border-radius: 10px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px 40px;
+    border:none;
+    box-shadow: 2 ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
 }
